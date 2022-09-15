@@ -8,14 +8,15 @@
 html, body {
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(224, 224, 224);
 }
 
 a {
-    color: var(--light) !important;
+    color: gray !important;
 }
 
 .custom-resume {
@@ -42,19 +43,20 @@ a {
     border: 1px solid var(--primary);
     border-radius: 50%;
     background-color: var(--primary);
-    color: var(--light);
+    color: gray;
 }
 
 .custom-profile > * {
-    background-color: var(--primary);
+    background-color: rgb(192, 192, 192);
 }
 
 .custom-profile > div:last-child span {
     flex-basis: 15%;
+    color: black;
 }
 
 .custom-profile > :last-child {
-    background-color: rgba(68, 106, 182, .5);
+    background-color: rgba(204, 229, 255, .5);
 }
 
 .custom-city {
