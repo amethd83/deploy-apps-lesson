@@ -12,15 +12,15 @@ html, body {
 }
 
 body {
-    background-color:rgb(224, 224, 224);
+    background-color:rgb(120, 120, 167);
 }
 
 a {
-    color: gray !important;
+    color: rgba(61, 35, 175, 0.842)!important;
 }
 
 .custom-resume {
-    background-color:var(--light);
+    background-color: light;
 }
 
 .custom-resume > div {
@@ -43,24 +43,24 @@ a {
     border: 1px solid var(--primary);
     border-radius: 50%;
     background-color: var(--primary);
-    color: gray;
+    color: rgba(19, 37, 23, 0.575);
 }
 
 .custom-profile > * {
-    background-color: rgb(192, 192, 192);
+    background-color: rgba(32, 7, 7, 0.863);
 }
 
 .custom-profile > div:last-child span {
     flex-basis: 15%;
-    color: black;
+    color: rgba(32, 7, 7, 0.853);
 }
 
 .custom-profile > :last-child {
-    background-color: rgba(204, 229, 255, .5);
+    background-color: rgba(12, 39, 34, 0.007);
 }
 
 .custom-city {
-    color: var(--greyish);
+    color:black;
 }
 
 .custom-title {
